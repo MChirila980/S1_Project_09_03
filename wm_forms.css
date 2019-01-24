@@ -6,17 +6,18 @@
    Case Problem 3
    WidgetMage Form Styles
    Author: Melinda Chirila
-   Date: 1.22.19   
+   Date: 1/22/19   
    Filename: wm_forms.css
 */
 
 /* Field Set Styles */
+/* no border */
 fieldset {
     border: none;
     width: 60%;
     margin: 10px 0px;
 }
-
+/* background color is a off white for the legnd */
 fieldset legend {
     background-color: rgb(232, 232, 232);
     width: 100%;
@@ -58,7 +59,7 @@ input[type='color'] {
     float: left;
     width: 75px;
 }
-
+/* the text is going to be at a font size of 1.5em and the height is 200px and with 100%. */
 textarea {
     font-size: 1.5em;
     width: 100%;
@@ -67,8 +68,9 @@ textarea {
 }
 
 /* Placeholder Styles */
+/* phseudo code :: for the text area making the background colors navy blue and a grey and the font size is going to be at 1.5em */
 textarea::placeholder {
-    background-color: rgb(255, 255, 191);
-    color: rgb(255, 151, 151);
+    background-color: rgb(112, 116, 117);
+    color: rgb(0, 4, 212);
     font-size: 1.5em;
 }

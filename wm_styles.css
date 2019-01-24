@@ -49,6 +49,7 @@ header ul li a {
     background-color: white;
     padding: 2px 0px;
 }
+
 /* when your hovering over the header of the ul and li (the side bar technically)it will turn a bright angry pink. */
 header ul li a:hover {
     color: white;
@@ -69,6 +70,7 @@ nav.vertical a {
     color: white;
     text-decoration: none;
 }
+
 /* when your mouse is hovering over the nav bars then it will turn a reddish angry pink. */
 nav.vertical a:hover {
     color: rgb(226, 29, 72);

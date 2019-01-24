@@ -17,6 +17,7 @@ fieldset {
     width: 60%;
     margin: 10px 0px;
 }
+
 /* background color is a off white for the legnd */
 fieldset legend {
     background-color: rgb(232, 232, 232);
@@ -27,7 +28,7 @@ fieldset legend {
 /* DIV Styles */
 div.slider {
     float: left;
-    width: 60%; 
+    width: 60%;
     margin: 2px 0px;
 }
 
@@ -40,7 +41,8 @@ label {
     margin: 2px 0px;
 }
 
-input, select {
+input,
+select {
     margin: 2px 0px;
 }
 
@@ -59,6 +61,7 @@ input[type='color'] {
     float: left;
     width: 75px;
 }
+
 /* the text is going to be at a font size of 1.5em and the height is 200px and with 100%. */
 textarea {
     font-size: 1.5em;
